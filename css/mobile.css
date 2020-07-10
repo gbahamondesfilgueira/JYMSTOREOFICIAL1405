@@ -1,0 +1,58 @@
+@media screen and (max-width:906px){
+    .body-home{
+        margin: 0;
+        padding: 0;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-position-y: inherit;
+    }
+    /* aqui empieza el media de la seccion principal */
+    .tienda-header-container{
+        display: grid;
+        grid-template-columns: 200px 400px 1fr;
+        height: 100px;
+    }
+    .header-img-tienda img{
+        margin: 0;
+    }
+    .tienda-header-buscador{
+    width: 340px;
+    height: 31px;
+    align-items: center;
+    display: flex;
+    border-radius: 100px;
+    background-color: white;
+    align-self: center;
+    }
+    .hero-pagina-principal{
+        /* background-image: url(../assest/img/jympagpricipal.png); */
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-template: 200px / 1fr;
+        background-size: 500px
+    }
+    /* aqui empieza el media de la seccion de productos */
+    .hero-section-hombre{
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-template: 200px / 1fr;
+        background-size: 500px
+    }
+    .hero-section-infantil{
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-template: 200px / 1fr;
+        background-size: 500px
+    }
+
+    .products {
+        grid-template: repeat(2, 260px) / repeat(3, 200px);
+    }
+    .footer-container {
+        grid-template: 1fr 1fr / 1fr;
+    }
+    .footer-input {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    }
+}

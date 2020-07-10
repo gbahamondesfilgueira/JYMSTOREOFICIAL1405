@@ -1,0 +1,33 @@
+/* ------------------hover del index */
+
+
+
+.main-button:hover {
+    background-color: #78c3f1;
+}
+.main-text a:hover{
+    color: #d13e6d;
+}
+/* ------------------hover del index termino */
+/* inicio del hover de secciones en la pagina principal  */
+.section-mujer:hover{
+    border-radius: 10px;
+    border: 1px solid #6e717c;
+
+}
+.section-hombre:hover{
+    border-radius: 10px;
+    border: 1px solid #6e717c;
+}
+
+.section-infantil:hover{
+    border-radius: 10px;
+    border: 1px solid #6e717c;
+}
+/* termino del hover en la seccion principal */
+/* comienso del hover en la seccion de products */
+
+.product:hover{
+    border: 1px solid #1b243a;
+
+}
