@@ -134,7 +134,7 @@ header{
 }
 .tienda-header-container{
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: 200px  1fr;
     height: 100px;
 }
 .header-img-tienda{
@@ -318,7 +318,10 @@ header{
 .section-home {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+}
+.section-home a {
+    margin-right: 50px;
 }
 .hero{
     background-image: url(../assest/img/logojmmujer.png);
@@ -417,7 +420,7 @@ header{
 }
 .tienda-header-container{
     display: grid;
-    grid-template-columns: 200px 1fr 1fr 200px;
+    grid-template-columns: 200px 1fr;
     height: 100px;
 }
 .header-img-tienda{
@@ -520,26 +523,14 @@ header{
 
 .footer-container {
     display: grid;
-    grid-template: 1fr / 2fr 1fr;
+    grid-template: 1fr / 1fr 1fr;
     width: 100%;
     height: 250px;
     background-color: #1b243a;
 }
 .footer-input {
     display: grid;
-    grid-template: 1fr / 1fr 1fr;
-}
-.footer-mas-sobre-nosotros {
-    display: grid;
-    text-align: center;
-    width: 400px;
-    color: #bab7b8
-}
-.footer-mas-sobr input{
-    margin-bottom: 8px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
+    grid-template: 1fr / 1fr;
 }
 
 
